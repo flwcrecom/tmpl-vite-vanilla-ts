@@ -1,5 +1,11 @@
-CRITICAL Vite + Vanilla TypeScript WebContainer Rules:
-- package.json MUST have "type": "module"
-- vite.config.ts uses ESM imports
-- index.html MUST exist at project root with <script type="module" src="/src/main.ts">
-- ALWAYS use `npm run dev` to start — never use bare `vite`
+This is a Vanilla TypeScript + Vite project with Tailwind CSS.
+
+STYLING RULES:
+- Use Tailwind CSS utility classes for ALL styling
+- Apply classes via JavaScript/TypeScript DOM manipulation or in index.html
+- Do NOT create custom CSS files — use Tailwind classes
+
+IMPORTANT:
+- Always run `npm install && npm run dev` to start
+- Use TypeScript for all new files (.ts)
+- Never use `vite` directly — always use `npm run dev`
