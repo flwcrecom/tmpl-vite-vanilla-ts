@@ -1,0 +1,5 @@
+CRITICAL Vite + Vanilla TypeScript WebContainer Rules:
+- package.json MUST have "type": "module"
+- vite.config.ts uses ESM imports
+- index.html MUST exist at project root with <script type="module" src="/src/main.ts">
+- ALWAYS use `npm run dev` to start — never use bare `vite`
